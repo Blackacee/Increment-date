@@ -1,2 +1,6 @@
 # Increment-date
-Incrementing date objects in JS 
+
+
+var checkoutDate = new Date();
+checkoutDate.setDate( checkoutDate.getDate() + 1 );
+console.log(checkoutDate);
